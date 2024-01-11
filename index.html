@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" href="assets/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <title>Frontend Mentor | QR code component</title>
+    </head>
+    <body class="font-sans flex p-8 items-center flex-col bg-blue-50">
+        <div class="bg-white p-4 pb-8 flex flex-col gap-6 max-w-xs items-center text-center shadow-2xl rounded-xl">
+            <img src="images/image-qr-code.png" alt="" class="w-full h-auto rounded-xl" />
+            <h3 class="text-2xl font-bold text-slate-800 max-w-prose">
+                Improve your front-end skills by building projects
+            </h3>
+            <p class="text-slate-400 max-w-prose">
+                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
+        </div>
+    </body>
 </html>
